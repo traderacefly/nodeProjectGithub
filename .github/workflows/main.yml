@@ -12,9 +12,10 @@ jobs:
     # Use the appropriate runner for building your source code
     runs-on: ubuntu-latest                                     
 
+    steps:
       # Check out source code
       - name: Check Out Source Code
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
         with:
           # Fetch at least the immediate parents so that if this is a pull request then we can checkout the head.
           fetch-depth: 2

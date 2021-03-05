@@ -2,10 +2,10 @@ name: Fortify ScanCentral SAST Scan
 on:
   workflow_dispatch:
   push:
-    branch: 'main'
+    branch: 'master'
   pull_request:
     # The branches below must be a subset of the branches above
-    branch: 'main'
+    branch: 'master'
 jobs:                                                 
   Fortify-SAST:
     # Use the appropriate runner for building your source code

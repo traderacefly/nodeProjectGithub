@@ -1,2 +1,2 @@
 # nodeProjectGithub
-# Fortify GitHub Action test
+# Fortify GitHub Action demo

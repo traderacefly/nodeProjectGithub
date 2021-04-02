@@ -1,2 +1,2 @@
-# nodeProjectGithub
+# NodeProjectGithub
 # Fortify GitHub Action demo
